@@ -1,0 +1,127 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "LinkStaticSample",
+    "printedName": "LinkStaticSample",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LinkStaticSample",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "VerifyJPKI",
+        "printedName": "VerifyJPKI",
+        "declKind": "Import",
+        "moduleName": "LinkStaticSample"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LinkStaticLibrary",
+        "printedName": "LinkStaticLibrary",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LinkStaticLibrary",
+                "printedName": "LinkStaticSample.LinkStaticLibrary",
+                "usr": "s:16LinkStaticSample0aB7LibraryC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16LinkStaticSample0aB7LibraryCACycfc",
+            "mangledName": "$s16LinkStaticSample0aB7LibraryCACycfc",
+            "moduleName": "LinkStaticSample",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "hello",
+            "printedName": "hello()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16LinkStaticSample0aB7LibraryC5helloSSyF",
+            "mangledName": "$s16LinkStaticSample0aB7LibraryC5helloSSyF",
+            "moduleName": "LinkStaticSample",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "scanMyNumberCard",
+            "printedName": "scanMyNumberCard(password:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16LinkStaticSample0aB7LibraryC16scanMyNumberCard8passwordySS_tYaKF",
+            "mangledName": "$s16LinkStaticSample0aB7LibraryC16scanMyNumberCard8passwordySS_tYaKF",
+            "moduleName": "LinkStaticSample",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:16LinkStaticSample0aB7LibraryC",
+        "mangledName": "$s16LinkStaticSample0aB7LibraryC",
+        "moduleName": "LinkStaticSample",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
