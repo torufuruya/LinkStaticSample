@@ -19,7 +19,10 @@
         "name": "VerifyJPKI",
         "printedName": "VerifyJPKI",
         "declKind": "Import",
-        "moduleName": "LinkStaticSample"
+        "moduleName": "LinkStaticSample",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "TypeDecl",
