@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import VerifyJPKI
+@_implementationOnly import VerifyJPKI
 
 public class LinkStaticLibrary {
     public init() {}
